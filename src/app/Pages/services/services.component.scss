@@ -1,0 +1,48 @@
+.box {
+    margin: 20px;
+    // margin-bottom: 20PX;
+    width: 550px; 
+    height: 367px; 
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+.webDev {
+    background-image: url(../../../assets/services/webDevelopment.jpg);
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.appDev {
+    background-image: url(../../../assets/services/appDevelopment.jpg);
+    background-size: contain;
+    opacity: 0.7;
+}
+
+.uiux {
+    background-image: url(../../../assets/services/uiux.png);
+    background-size: contain;
+    opacity: 0.7;
+}
+
+.learn {
+    background-image: url(../../../assets/services/learn.jpg);
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.softDev {
+    background-image: url(../../../assets/services/soft.jpg);
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.cyberDev {
+    background-image: url(../../../assets/services/cyberSec.png);
+    background-size: contain;
+    opacity: 0.7;
+}
+
+.box:hover {
+    opacity: 1;
+}
